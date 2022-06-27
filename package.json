@@ -1,0 +1,28 @@
+{
+  "name": "cityir",
+  "version": "0.0.1",
+  "description": "opensource cities list of iran",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmdilloo/divar-city.git"
+  },
+  "keywords": [
+    "iran",
+    "iran-city",
+    "iran-provinces",
+    "iran-map",
+    "iranjs",
+    "iranjson",
+    "irancities"
+  ],
+  "author": "ahmd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmdilloo/divar-city/issues"
+  },
+  "homepage": "https://github.com/ahmdilloo/divar-city#readme"
+}
