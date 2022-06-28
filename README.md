@@ -17,7 +17,7 @@ There are two async function :
 
 ```javascript
 // async example to fetch online data
-const { justProvinces, provinces } = require('./lib/index')
+const { justProvinces, provinces } = require('cityir')
 
 async  function  run() {
  const [pureList, fullList] = [await  justProvinces(), await  provinces()]
@@ -29,7 +29,7 @@ run()
 
 ```javascript
 // sync offline data - read from cached file
-const { justProvinces, provinces } = require('./lib/index').offline
+const { justProvinces, provinces } = require('cityir').offline
 
 console.table(justProvinces)
 console.table(provinces)
